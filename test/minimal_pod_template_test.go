@@ -5,7 +5,7 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/gruntwork-io/terratest/modules/helm"
+	"github.com/tnn-gruntwork-io/terratest/modules/helm"
 )
 
 func TestPodTemplateRendersContainerImage(t *testing.T) {
